@@ -1,0 +1,81 @@
+body{
+    margin: 0rem;
+    height: 100%;
+}
+
+.header-index{
+    background-color: #64c6d3;
+    height: 100%;
+    color: aliceblue;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 0rem;
+}
+
+h1 span{
+    font-weight: 200;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main{
+    margin: 2rem;
+    min-height: 42.5rem;
+}
+
+.form-box{
+    border:  3px dashed #64c6d3;
+    width: 24.375rem;
+    min-height: 43.125rem;
+    padding: 1.5rem;
+}
+.menu nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.img-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-main img{
+    width: 40%;
+
+}
+
+#pet-list{
+    background-color: blanchedalmond;
+}
+
+.container {
+    width: 10rem;
+  }
+  
+.container input {
+    width: 100%;
+  }
+
+.pet-list-color{
+      background-color:#64c6d3;
+      color: aliceblue;
+  }
+footer{
+    min-height: 5rem;
+    width: 100%;
+    background-color: #64c6d3;
+}
+
+.selected{
+    background-color: #64c6d369;
+    color: aquamarine;
+}
